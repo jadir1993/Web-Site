@@ -20,20 +20,32 @@
 
             <ul id="menu">
                 <button id="close-btn">&times;</button>
-                <li><a href="/index.html" id="seleccionado" class="opcion_menu">HOME</a></li>
+                <li><a href="/index.html" class="opcion_menu">HOME</a></li>
                 <li><a href="/biography.html" class="opcion_menu">ABOUT</a></li>
-                <li><a href="/contacto.html" class="opcion_menu">CONTACT</a></li>
+                <li><a href="/contacto.html" id="seleccionado" class="opcion_menu">CONTACT</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <section class="proyectos">
-            <img src="imagenes/imagenPortada.jpg" id="imagenPortada" alt="imagen Portada">
-        </section>
 
+<!-- falta agregar el código del lado del servidor para que el mensaje 
+    del formulario se envíe  a mi correo electrónico. -->
+
+        <h2 id="titulo_contacto">Contact</h2>
+
+            <form id="formulario">
+                <label for="nombre">Name:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Message:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input id="submit" type="submit" value="Send">
+            </form>
     </main>
-
     <footer>
         <ul class="iconos">
             <li><a href="mailto:1895yair@gmail.com"><img src="./imagenes/mail.png" alt="logo mail"></a></li>
@@ -51,7 +63,7 @@
 
 
     </footer>
-
+  
     <script src="/js/js.js"></script>
 </body>
 
