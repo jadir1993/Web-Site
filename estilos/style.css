@@ -233,6 +233,29 @@ textarea{
     height: 25px;
    
 }
+.custom-alert {
+    /* Estilos de fondo */
+    font-family: 'Lato', sans-serif;
+    background-color: #d7d7d7;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    
+    /* Estilos de texto */
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    
+    /* Otros estilos */
+    width: 200px;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .hide {
+    display: none;
+  }
+
 
 .menu_footer {
    align-self: center;

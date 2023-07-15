@@ -28,12 +28,9 @@
     </header>
     <main>
 
-<!-- falta agregar el código del lado del servidor para que el mensaje 
-    del formulario se envíe  a mi correo electrónico. -->
-
         <h2 id="titulo_contacto">Contact</h2>
 
-            <form id="formulario" action="https://formsubmit.co/1895yair@gmail.com" method="POST">
+            <form id="formulario"  action="https://formspree.io/f/mwkdkdbz" method="POST">
                 <label for="nombre">Name:</label>
                 <input type="text" id="nombre" name="name" required>
 
@@ -48,6 +45,9 @@
 
                 <input id="submit" type="submit" value="Send">
             </form>
+            <div id="alerta" class="custom-alert hide">
+                Gracias por contactarme
+              </div>
     </main>
     <footer>
         <ul class="iconos">
